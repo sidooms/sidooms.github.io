@@ -1,0 +1,479 @@
+---
+title: IMDbrain - Customizable movie recommendations based on your IMDb ratings
+layout: default
+---
+
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top"><img class="" src="img/logo_IMDbrain_square_cartoon_36.png" alt=""> IMDbrain</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#features">What it does</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#howitworks">How it works</a>
+                    </li>
+					
+					<li class="page-scroll">
+                        <a href="#portfolio">How it looks</a>
+                    </li>
+					
+					<li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+					
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+<!-- Wrap body to insert movie background 
+<div class="movieback">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-10 col-md-offset-1 backwhite">
+
+-->
+   
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/logo_IMDbrain_square_cartoon_128.png" alt="">
+                    <div class="intro-text text-center">
+                        <span class="name">IMDbrain</span>
+                        <hr class="star-light">
+                        <span class="skills">Customizable movie recommendations based on your IMDb ratings</span>
+                    </div>
+                </div>
+            </div>
+			<br><br>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 text-center">
+						<a target="_blank" href="https://chrome.google.com/webstore/detail/imdbrain/egeaceljjpjhbgikdgodhaanoecbleln" class="btn btn-primary btn-lg">
+                        <i class="fa fa-download"></i> Install IMDbrain Chrome Extension
+                    </a>
+                </div>
+			</div>
+        </div>
+    </header>
+	<!-- btn btn-lg btn-outline -->
+	
+	 <section class="" id="features">
+        <div class="container">
+            <div class="footer-col col-md-4">
+                        <h3>IMDb integration</h3>
+                        <p class="text-justify">Instead of being yet another movie service that requires you to rate movies, we re-use your ratings from IMDb. How cool is that?</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Top Movie data</h3>
+                        <p class="text-justify">We use the <a href="https://github.com/sidooms/MovieTweetings" target="_blank">MovieTweetings dataset</a> which adds new movies on a daily basis to keep the movie catalog as interesting and relevant as possible.</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>You are in control</h3>
+                        <p class="text-justify">Control your recommended movies by changing settings, setting filters and rating more movies. We offer the interaction that IMDb lacks.</p>
+                    </div>
+			
+		</div>
+	</section>
+
+    <section id="howitworks">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>How it works</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+			  <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+						<div class="item active">
+						  <img src="img/Step1.png" alt="Step 1">
+						  <div class="carousel-caption">
+							
+							<p>Step 1: Rate movies on the IMDb.com website.</p>
+						  </div>
+						</div>
+						<div class="item">
+						  <img src="img/Step2.png" alt="Step 2">
+						  <div class="carousel-caption">
+							
+							<p>Step 2: Set ratings public at the IMDb profile page.</p>
+						  </div>
+						</div>
+						<div class="item">
+						  <img src="img/Step3.png" alt="Step 3">
+						  <div class="carousel-caption">
+							<p>Step 3: Install the IMDbrain extension, and log in.</p>
+						  </div>
+						</div>
+						<div class="item">
+						  <img src="img/Step4.png" alt="Step 4">
+						  <div class="carousel-caption">
+							<p>Step 4: View and control your movie recommendations!</p>
+						  </div>
+						</div>
+					  </div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					  </a>
+					  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					  </a>
+					</div>
+				</div>
+				</div>
+        </div>
+    </section>
+
+	<!--
+    <section id="screen" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Screenshots</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+           Insert screenshots here...
+        </div>
+    </section>
+	
+	-->
+	
+	<section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>How it looks</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Screenshot_1.png" class="img-responsive" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Screenshot_2.png" class="img-responsive" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Screenshot_3.png" class="img-responsive" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Screenshot_4.png" class="img-responsive" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Screenshot_5.png" class="img-responsive" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Screenshot_6.png" class="img-responsive" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	
+	    <section class="" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2 text-justify">
+                    <p>IMDbrain, pronounce as 'I am the brain', is a chrome extension that integrates your IMDb ratings to provide more customizable movie recommendations. If you have an IMDb account, your ratings will be imported and provided to the brain.</p>
+                </div>
+				<div class="col-lg-4 text-justify">
+                    <p>You can get movie recommendations and more interestingly, you can fine-tune specific settings of the recommendation process to improve the quality of your movie recommendation list. Note that this is a beta service which may be slow, crash or freeze at times.</p>
+                </div>
+            </div>
+			
+			
+			
+        </div>
+    </section>
+
+	
+	
+<!-- Wrap body to insert movie background    
+   </div>
+   </div>
+  </div>
+</div>
+-->
+
+
+
+    <footer class="text-center">
+		
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+				<!--
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>3481 Melrose Place
+                            <br>Beverly Hills, CA 90210</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+					
+                    <div class="footer-col col-md-4 col-md-offset-4">
+                        <h3>About IMDbrain</h3>
+                        <p>IMDbrain is a proof of concept of the PhD research by Simon Dooms.</p>
+                    </div>
+					-->
+                </div>
+            </div>
+        </div>
+		
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        IMDbrain is a proof of concept of the PhD research by Simon Dooms - Copyright &copy; 2014 - Simon Dooms
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    
+<!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>IMDbrain Login</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Screenshot_1.png" class="img-responsive img-centered" alt="">
+                            <p>When you use the extension for the first time, you will not be logged in. To do so, login on the IMDb website or simply refresh any IMDb page where you are already logged in.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>IMDbrain LOGIN detected</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Screenshot_2.png" class="img-responsive img-centered" alt="">
+                            <p>Alright, you have refreshed an IMDb page where you were logged in and now the IMDbrain extension has detected your IMDb username. Logging in is now as easy as clicking a button!</p>
+							<p><strong>Note, that we do not have access to your password. All authentication is handled by the IMDb website.</strong></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Popular recommendations</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Screenshot_3.png" class="img-responsive img-centered" alt="">
+                            <p>Hooray, you are logged in and getting movie suggestions. But wait ... the brain does not know you yet. First you must have rated at least 5 movies (not series) on IMDb and wait until the brain has analyzed your profile. This shouldn't take more than 30 minutes. <strong>In the meantime the brain shows some popular movies to keep you busy.</strong>You can already play around with the genre filters if you want.</p>
+							<p>Don't forget to set your ratings as 'public' on your IMDb profile page or the brain won't be able to access your profile.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Movie recommendations</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Screenshot_4.png" class="img-responsive img-centered" alt="">
+                            <p>Yes! The brain has prepared a list of movies that you might like based on your previous ratings. You can keep scrolling for more movies, open the corresponding IMDb pages (add movies to your watchlist maybe?) or hide movies you don't want to see. Don't forget to rate more movies once in a while, and refresh your list. The brain gets smarter with every rating and may have some new movies for you.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>You are in control</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Screenshot_5.png" class="img-responsive img-centered" alt="">
+                            <p>Don't like your recommendations? Check the settings! The brain is very smart, but you know yourself better than anyone. Try updating the settings and see if you can improve your results.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Genre filters</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Screenshot_6.png" class="img-responsive img-centered" alt="">
+                            <p>Genre filters, yes sir! Improve your recommendation list by dragging the genres to the 'exclude' or 'include' list. Do you hate all romantic movies? Or maybe you are looking for a great comedy. Set the genre filters and the brain takes care of the rest!</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+    
+
